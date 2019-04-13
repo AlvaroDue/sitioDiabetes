@@ -34,8 +34,11 @@ footer{
 .container-home{
   display: flex;
   width: 50vw;
-  flex-direction: column;
   border: 1px solid #000;
+}
+
+.column{
+  flex-direction: column;
 }
 
 .botones,.ayuda,.titulos{
