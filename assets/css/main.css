@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 7vh;
+  width: 100%;
+  background-color: #fbfbfb;
+}
+
+#cover_home {
+  height: 40vh;
+  width: 100%;
+  background-image: url(../img/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: contain;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+}
