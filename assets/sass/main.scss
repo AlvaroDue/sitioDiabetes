@@ -1,0 +1,50 @@
+@import 'reset';
+@import 'general';
+
+nav {
+  background-color: #fbfbfb;
+}
+body{
+  background-color: #ccc;
+}
+header{
+  height: 5vh;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  justify-content: space-around;
+}
+
+.cover_home {
+  display: flex;
+  border: 1px solid #000;
+  justify-content: center;
+}
+
+.container-home{
+  display: flex;
+  width: 50vw;
+  border: 1px solid #000;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.botones,.ayuda,.titulos{
+  display: flex;
+  justify-content: center;
+}
+
+.titulos{
+  flex-direction: column;
+}
+
+.titulos h2,.titulos h3{
+  text-align: center;
+}

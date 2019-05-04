@@ -1,0 +1,31 @@
+
+@font-face {
+  font-family: RalewayRegular;
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: RalewayBold;
+  src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: RalewayLight;
+  src: url(../fonts/Raleway/Raleway-Light.ttf);
+}
+
+$fontRegular: 'RalewayRegular';
+$fontBold: 'RalewayBold';
+$fontLight: 'RalewayLight';
+
+$colorPrimario: #a5d8ff;
+$colorSecundario: #1971c2;
+$colorTerciario: #155592;
+$colorAlternativo: #f06595;
+$grisClaro: #e5e5e5;
+$grisMedio: #999999;
+$grisOscuro: #606060;
+
+body {
+  font-family: $fontRegular, sans-serif;
+}
