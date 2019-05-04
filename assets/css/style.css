@@ -3,6 +3,10 @@
   .preguntas h2 {
     width: 100%; }
 
+.iconos-rrss i {
+  font-size: 20px;
+  color: #5A6878; }
+
 .panel {
   padding: 0 18px;
   background-color: white;
